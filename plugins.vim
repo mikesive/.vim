@@ -3,13 +3,18 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/syntastic'
+
 Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'scrooloose/nerdtree'
-Plugin 'slim-template/vim-slim.git'
 Plugin 'hashivim/vim-terraform.git'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'slim-template/vim-slim.git'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-markdown'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'Yggdroot/indentLine'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
