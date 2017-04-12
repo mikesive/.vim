@@ -10,7 +10,7 @@ noremap <down>  :echoerr 'USE J TO GO DOWN'<CR>
 noremap <left>  :echoerr 'USE H TO GO LEFT'<CR>
 noremap <right> :echoerr 'USE L TO GO RIGHT'<CR>
 
-" Remate ctrl <h j k l> to move between windows
+" Remap ctrl <h j k l> to move between windows
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
