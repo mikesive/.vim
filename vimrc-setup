@@ -1,0 +1,10 @@
+set shell=/bin/bash
+set nocompatible              " be iMproved, required
+filetype off                  " required
+let g:ctrlp_map = '<c-p>'
+:let mapleader = ","
+let g:syntastic_javascript_checkers = ['eslint']
+set noswapfile
+vnoremap > ><CR>gv
+vnoremap < <<CR>gv
+source ~/.vim/plugins.vim
