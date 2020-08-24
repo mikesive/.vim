@@ -9,12 +9,15 @@ Plugin 'hashivim/vim-terraform.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
-Plugin 'slim-template/vim-slim.git'
-Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-markdown'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Yggdroot/indentLine'
+Plugin 'pangloss/vim-javascript'    " JavaScript support
+Plugin 'leafgarland/typescript-vim' " TypeScript syntax
+Plugin 'neoclide/coc.nvim'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'ruanyl/vim-gh-line'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
