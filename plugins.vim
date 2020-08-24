@@ -18,6 +18,8 @@ Plugin 'leafgarland/typescript-vim' " TypeScript syntax
 Plugin 'neoclide/coc.nvim'
 Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'ruanyl/vim-gh-line'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
