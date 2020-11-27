@@ -20,6 +20,8 @@ Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'ruanyl/vim-gh-line'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
+Plugin 'mileszs/ack.vim'
+Plugin 'puremourning/vimspector'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
