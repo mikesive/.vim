@@ -9,7 +9,4 @@ source ~/.vim/plugins.vim
 
 vnoremap <silent> ,cp :w !pbcopy<CR><CR>
 noremap <silent> ,sh :term zsh<CR>
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-vmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
 let g:vim_json_conceal=0
