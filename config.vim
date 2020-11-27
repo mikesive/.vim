@@ -14,5 +14,5 @@ vnoremap < <<CR>gv
 source ~/.vim/plugins.vim
 
 vnoremap <silent> ,cp :w !pbcopy<CR><CR>
-noremap <silent> ,sh :cd %:p:h<CR>:term zsh<CR>
+noremap <silent> ,sh :cd %:p:h<CR>:vert term zsh<CR>
 let g:vim_json_conceal=0
