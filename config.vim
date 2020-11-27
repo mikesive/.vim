@@ -1,8 +1,14 @@
 " set nocompatible              " be iMproved, required
 filetype off                  " required
+set noswapfile
+set nobackup
+set nocompatible              " be iMproved, required
+set number
+set tabstop=2 shiftwidth=2 expandtab
+colo atom-dark-256
+syntax enable
 let g:ctrlp_map = '<c-p>'
 :let mapleader = ","
-set noswapfile
 vnoremap > ><CR>gv
 vnoremap < <<CR>gv
 source ~/.vim/plugins.vim
