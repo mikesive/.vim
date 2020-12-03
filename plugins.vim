@@ -10,16 +10,17 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-markdown'
 Plugin 'Yggdroot/indentLine'
-Plugin 'pangloss/vim-javascript'    " JavaScript support
-Plugin 'leafgarland/typescript-vim' " TypeScript syntax
-Plugin 'neoclide/coc.nvim'
-Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'ruanyl/vim-gh-line'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
-Plugin 'puremourning/vimspector'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
+
+" Language specific plugins
+Plugin 'neoclide/coc.nvim'
+Plugin 'pangloss/vim-javascript'    " JavaScript support
+Plugin 'leafgarland/typescript-vim' " TypeScript syntax
+Plugin 'puremourning/vimspector'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
