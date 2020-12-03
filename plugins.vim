@@ -4,7 +4,6 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'kien/ctrlp.vim'
 Plugin 'hashivim/vim-terraform.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
@@ -18,8 +17,9 @@ Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'ruanyl/vim-gh-line'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
-Plugin 'mileszs/ack.vim'
 Plugin 'puremourning/vimspector'
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plugin 'junegunn/fzf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
