@@ -1,0 +1,2 @@
+brew "fzf"
+brew "rg"
