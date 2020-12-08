@@ -27,8 +27,19 @@ noremap <C-l> <C-w>l
 
 
 " Custom mappings
+" Indent command mappings
 vnoremap > ><CR>gv
 vnoremap < <<CR>gv
+
+" Copy visual selection to clipboard
 vnoremap <silent> ,cp :w !pbcopy<CR><CR>
+
+" Open a terminal in a vertical pain
 noremap <silent> ,sh :cd %:p:h<CR>:vert term zsh<CR>
-vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+" Go to next instant of highlighted wor
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR> zz
+
+" Ensure search results are vertically centered
+nnoremap n nzz
+nnoremap N Nzz
