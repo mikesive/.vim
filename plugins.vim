@@ -4,6 +4,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+" Global plugins
 Plugin 'hashivim/vim-terraform.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
