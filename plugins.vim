@@ -16,7 +16,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 
-" Language-specific plugins
+" Profile plugins
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'slim-template/vim-slim.git'
 
