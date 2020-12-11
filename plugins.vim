@@ -16,6 +16,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
+Plugin 'itchyny/lightline.vim'
 
 " Profile plugins
 Plugin 'neoclide/coc.nvim'
