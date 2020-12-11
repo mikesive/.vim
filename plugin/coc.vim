@@ -1,3 +1,6 @@
+" Global settings
+
+" Profile settings
 let g:coc_global_extensions = [ 'coc-tsserver' ]
 
 " Remap keys for applying codeAction to the current line.
